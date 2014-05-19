@@ -8,7 +8,7 @@ Funkcje/Functions
 ============
 
 ```sh
-- Return's float value
+- Returns float value
 native Float:GetVehicleMass(vehicle);
 native Float:GetVehicleDragCoeff(vehicle);
 native Float:GetVehicleFrontRearBias(vehicle);
@@ -30,10 +30,10 @@ native Float:GetVehicleDistSeatOffset(vehicle);
 native Float:GetVehicleSusDamping(vehicle);
 native Float:GetVehicleCollisionDmg(vehicle);
 native Float:GetVehicleMaxVelocity(vehicle);
-- Return's integer
+- Returns integer
 native GetVehicleNumberOfGear(vehicle);
 native GetVehiclePercentSubMerged(vehicle);
-- Return's string
+- Returns string
 native GetVehicleEngineType(vehicle); 
 native GetVehicleDriveType(vehicle);
 ```
