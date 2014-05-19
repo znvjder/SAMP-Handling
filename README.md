@@ -7,7 +7,8 @@ Lista oryginalnego handlingu pojazdów z GTA San Andreas pod multiplayer SA-MP.
 Funkcje/Functions
 ============
 
-native- Return's float value
+```sh
+- Return's float value
 native Float:GetVehicleMass(vehicle);
 native Float:GetVehicleDragCoeff(vehicle);
 native Float:GetVehicleFrontRearBias(vehicle);
@@ -35,3 +36,4 @@ native GetVehiclePercentSubMerged(vehicle);
 - Return's string
 native GetVehicleEngineType(vehicle); 
 native GetVehicleDriveType(vehicle);
+```
