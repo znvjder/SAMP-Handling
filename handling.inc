@@ -1,6 +1,7 @@
 /*
-	Originalny handling cars from GTA San Andreas
-
+	Contains the data of the original vehicle handling from GTA SA
+	Zawiera oryginalny handling pojazdow z GTA SA
+	
 	@platform: SA-MP
 	@author: l0nger <l0nger.programmer@gmail.com>
 	@licence: GPLv2
