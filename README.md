@@ -37,3 +37,8 @@ native GetVehiclePercentSubMerged(vehicle);
 native GetVehicleEngineType(vehicle); 
 native GetVehicleDriveType(vehicle);
 ```
+
+Licencja/License
+-----------
+
+GPLv2
