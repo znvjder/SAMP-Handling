@@ -1,11 +1,7 @@
 /*
 	Contains the data of the original vehicle handling from GTA SA
 	Zawiera oryginalny handling pojazdow z GTA SA
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 9e45c17e0852ce523a9b233af418f058eb108de2
 	@platform: SA-MP
 	@author: l0nger <l0nger.programmer@gmail.com>
 	@licence: GPLv2
