@@ -1,5 +1,6 @@
 /*
-	Originalny handling cars from GTA San Andreas
+	Contains the data of the original vehicle handling from GTA SA
+	Zawiera oryginalny handling pojazdow z GTA SA
 
 	@platform: SA-MP
 	@author: l0nger <l0nger.programmer@gmail.com>
@@ -16,6 +17,9 @@
 
 #pragma compress 0
 #define getVehicleMID(%0) (GetVehicleModel(%0)-400)
+
+#define GetVehicleDriveType(%0) (sampHandling[getVehicleMID(%0)][esh_driveType])
+#define GetVehicleEngineType(%0) (sampHandling[getVehicleMID(%0)][esh_engineType])
 
 enum e_SAMPHandling
 {
@@ -336,7 +340,7 @@ stock Float:GetVehicleEngineInertia(vehicle)
 	return sampHandling[getVehicleMID(vehicle)][esh_engineInertia];
 }
 
-stock Float:GetVehicleNumberOfGear(vehicle)
+stock GetVehicleNumberOfGear(vehicle)
 {
 	return sampHandling[getVehicleMID(vehicle)][esh_numberOfGears];
 }
@@ -375,15 +379,3 @@ stock Float:GetVehicleMass(vehicle)
 {
 	return sampHandling[getVehicleMID(vehicle)][esh_mass];
 }
-
-stock GetVehicleEngineType(vehicle)
-{
-	return sampHandling[getVehicleMID(vehicle)][esh_engineType];
-}
-
-stock GetVehicleDriveType(vehicle)
-{
-	return sampHandling[getVehicleMID(vehicle)][esh_driveType];
-}
-
-#undef getVehicleMID
