@@ -1,7 +1,11 @@
 /*
 	Contains the data of the original vehicle handling from GTA SA
 	Zawiera oryginalny handling pojazdow z GTA SA
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 9e45c17e0852ce523a9b233af418f058eb108de2
 	@platform: SA-MP
 	@author: l0nger <l0nger.programmer@gmail.com>
 	@licence: GPLv2
@@ -378,4 +382,20 @@ stock GetVehicleMaxVelocity(vehicle)
 stock Float:GetVehicleMass(vehicle)
 {
 	return sampHandling[getVehicleMID(vehicle)][esh_mass];
+<<<<<<< HEAD
 }
+=======
+}
+
+stock GetVehicleEngineType(vehicle)
+{
+	return sampHandling[getVehicleMID(vehicle)][esh_engineType];
+}
+
+stock GetVehicleDriveType(vehicle)
+{
+	return sampHandling[getVehicleMID(vehicle)][esh_driveType];
+}
+
+#undef getVehicleMID
+>>>>>>> 9e45c17e0852ce523a9b233af418f058eb108de2
