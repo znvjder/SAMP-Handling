@@ -378,9 +378,6 @@ stock GetVehicleMaxVelocity(vehicle)
 stock Float:GetVehicleMass(vehicle)
 {
 	return sampHandling[getVehicleMID(vehicle)][esh_mass];
-<<<<<<< HEAD
-}
-=======
 }
 
 stock GetVehicleEngineType(vehicle)
@@ -394,4 +391,4 @@ stock GetVehicleDriveType(vehicle)
 }
 
 #undef getVehicleMID
->>>>>>> 9e45c17e0852ce523a9b233af418f058eb108de2
+
