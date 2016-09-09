@@ -267,10 +267,8 @@ static const sampHandling[][e_SAMPHandling] = {
 	{1000.0, 1354.199951, 5.000000, 0.000000, 0.000000, 0.000000, 70, 5.000000, 5.000000, 5.000000, 3, 160.0, 8.000000, 160.0, "rwd", "electric", 5.0, 0.5, 30.0, 2.0, 0.1, 0.0, 0.3, -0.1, 0.5, 0.0, 0.3, 0.5}
 };
 
-stock GetVehiclePercentSubMerged(vehicle)
-{
-	return sampHandling[getVehicleMID(vehicle)][esh_percentSubmerged];
-}
+#define GetVehiclePercentSubMerget(%0) sampHandling[getVehicleMID(%0)][esh_percentSubmerged]
+// it's tip. Better add define than creating stock, with stock you loose some memory...
 
 stock Float:GetVehicleDragCoeff(vehicle)
 {
